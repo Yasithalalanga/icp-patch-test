@@ -1,0 +1,7 @@
+[2024-12-16 17:16:13,482]  INFO {org.wso2.config.mapper.ConfigParser} - Initializing configurations with deployment configurations
+[2024-12-16 17:16:14,551]  INFO {org.wso2.ei.dashboard.bootstrap.DashboardServer} - WSO2 Integration Control Plane started.
+[2024-12-16 17:16:14,552]  INFO {org.wso2.ei.dashboard.bootstrap.DashboardServer} - Login to Integration Control Plane Dashboard : 'https://YasithaG.local:9743/login'
+[2024-12-16 17:16:37,750]  INFO {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :conf/deployment.toml
+[2024-12-16 17:16:37,752]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /Users/yasithag/Downloads/wso2-integration-control-plane-1.0.0.4-SNAPSHOT
+[2024-12-16 17:16:38,665]  INFO {org.wso2.ei.dashboard.bootstrap.DashboardServer} - WSO2 Integration Control Plane started.
+[2024-12-16 17:16:38,665]  INFO {org.wso2.ei.dashboard.bootstrap.DashboardServer} - Login to Integration Control Plane Dashboard : 'http://YasithaG.local:9743/login'

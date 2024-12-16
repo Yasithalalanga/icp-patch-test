@@ -1,0 +1,26 @@
+[2024-12-16 12:11:11,525]  WARN {org.wso2.ei.dashboard.bootstrap.DashboardServer} - Cannot write process ID '10' to '/app/runtime.pid' file. java.nio.file.FileSystemException: /app/runtime.pid: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.write(Files.java:3425)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.writePID(DashboardServer.java:378)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.startAndMonitorServer(DashboardServer.java:194)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.startServerWithConfigs(DashboardServer.java:153)
+	at org.wso2.ei.dashboard.bootstrap.Bootstrap.main(Bootstrap.java:40)
+
+[2024-12-16 12:11:56,210]  WARN {org.wso2.ei.dashboard.bootstrap.DashboardServer} - Cannot write process ID '10' to '/app/runtime.pid' file. java.nio.file.FileSystemException: /app/runtime.pid: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.write(Files.java:3425)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.writePID(DashboardServer.java:378)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.startAndMonitorServer(DashboardServer.java:194)
+	at org.wso2.ei.dashboard.bootstrap.DashboardServer.startServerWithConfigs(DashboardServer.java:153)
+	at org.wso2.ei.dashboard.bootstrap.Bootstrap.main(Bootstrap.java:40)
+
